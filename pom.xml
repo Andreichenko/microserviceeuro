@@ -7,6 +7,10 @@
     <groupId>de.alexfrei.microservice.euro</groupId>
     <artifactId>microservice-euro</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>amicroservice-euro</name>
+    <description>Microservice dashboard</description>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -53,11 +57,11 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>be.g00glen00b.service</groupId>
-            <artifactId>monitor-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>be.g00glen00b.service</groupId>-->
+            <!--<artifactId>monitor-starter</artifactId>-->
+            <!--<version>0.0.1-SNAPSHOT</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <dependencyManagement>
